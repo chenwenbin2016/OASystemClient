@@ -1,0 +1,37 @@
+server:
+  #端口号
+  port: 3038
+  #错误页面路径
+  error:
+    path: /error
+  #设定项目名
+  servlet:
+    context-path: /OASystemClient
+spring:
+ #jsp 支持
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /WEB-INF/view/
+    static-path-pattern: /static/**
+  #关闭默认模板引擎
+  thymeleaf:
+    cache: false
+    enabled: false
+  datasource:
+    url: jdbc:mysql://localhost:3306/oasystem?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.jdbc.Driver
+#mybatis 配置
+mybatis:
+  type-aliases-package: com.oaclient.entity
+  #Mybatis扫描(配置xml模式使用)
+  mapper-locations: classpath*:com/oaclient/mapper/*.xml
+
+#==================== 日志配合·标准  ============================
+logging:
+ config: classpath:config/logback.xml
+
+
+

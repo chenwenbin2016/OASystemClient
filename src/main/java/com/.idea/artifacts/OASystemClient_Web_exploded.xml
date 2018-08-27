@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="OASystemClient:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/OASystemClient_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="OASystemClient/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="OASystemClient" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

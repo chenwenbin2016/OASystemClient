@@ -1,0 +1,8 @@
+com\oaclient\entity\login\User.class
+com\oaclient\shiro\CustomRealm.class
+com\SpringBootOASystemClientApplication.class
+com\oaclient\controller\register\LoginController.class
+com\oaclient\shiro\ShiroConfig.class
+com\oaclient\entity\common\StatusType.class
+com\oaclient\entity\common\ReturnCode.class
+com\oaclient\entity\common\MessageType.class
