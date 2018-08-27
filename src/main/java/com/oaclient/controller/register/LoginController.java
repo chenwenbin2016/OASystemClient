@@ -28,8 +28,6 @@ public class LoginController {
     public String  getTest(){
         long start=System.currentTimeMillis();
         logger.info("测试输出,COST:"+(System.currentTimeMillis()-start)+"MS");
-        logger.info("测试输出,COST:"+(System.currentTimeMillis()-start)+"MS");
-        logger.info("测试输出,COST:"+(System.currentTimeMillis()-start)+"MS");
         return "ok";
     }
 
